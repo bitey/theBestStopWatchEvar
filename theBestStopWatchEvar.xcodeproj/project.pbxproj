@@ -18,6 +18,7 @@
 		B4E03BB116C878E500393210 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E03BB016C878E500393210 /* Default-568h@2x.png */; };
 		B4E03BB416C878E500393210 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E03BB316C878E500393210 /* MMViewController.m */; };
 		B4E03BB716C878E500393210 /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E03BB516C878E500393210 /* MMViewController.xib */; };
+		B4E03BC016C88E1200393210 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E03BBF16C88E1200393210 /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,9 @@
 		B4E03BB216C878E500393210 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
 		B4E03BB316C878E500393210 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
 		B4E03BB616C878E500393210 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		B4E03BBD16C8875D00393210 /* Anonymous Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Anonymous Pro.ttf"; path = "../../../../Library/Fonts/AnonymousPro-1.002.001/Anonymous Pro.ttf"; sourceTree = "<group>"; };
+		B4E03BBE16C88E1200393210 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		B4E03BBF16C88E1200393210 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				B4E03BB316C878E500393210 /* MMViewController.m */,
 				B4E03BB516C878E500393210 /* MMViewController.xib */,
 				B4E03BA116C878E500393210 /* Supporting Files */,
+				B4E03BBE16C88E1200393210 /* Timer.h */,
+				B4E03BBF16C88E1200393210 /* Timer.m */,
 			);
 			path = theBestStopWatchEvar;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 		B4E03BA116C878E500393210 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4E03BBD16C8875D00393210 /* Anonymous Pro.ttf */,
 				B4E03BA216C878E500393210 /* theBestStopWatchEvar-Info.plist */,
 				B4E03BA316C878E500393210 /* InfoPlist.strings */,
 				B4E03BA616C878E500393210 /* main.m */,
@@ -177,6 +184,7 @@
 				B4E03BA716C878E500393210 /* main.m in Sources */,
 				B4E03BAB16C878E500393210 /* MMAppDelegate.m in Sources */,
 				B4E03BB416C878E500393210 /* MMViewController.m in Sources */,
+				B4E03BC016C88E1200393210 /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
